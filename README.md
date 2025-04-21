@@ -36,5 +36,5 @@ cd wifiblocktool
 chmod +x WifixBlock.sh
 ```
 ```
-suo ./WifixBlock.sh
+sudo ./WifixBlock.sh
 ```
