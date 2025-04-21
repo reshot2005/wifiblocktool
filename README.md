@@ -1,9 +1,6 @@
-# Wifi-x-Block 😂📡
+# WiFiBlockTool 🔐
 
-**Version:** 1.0  
-**Author:** [reshot2005]  
-**License:** MIT  
-
+A powerful **IP blocker tool** that lets you **block any device on your local WiFi network** — even **without internet** access. Ideal for **penetration testers**, **cybersecurity students**, and **ethical hackers**.
 
 ## 🎉 One-Click Sibling Control™ (Just Kidding... or are we?)  
 
@@ -11,36 +8,33 @@ Tired of your sibling hogging the Wi-Fi? Want to pull the ultimate *"Gotcha!"* p
 Introducing **Wifi-x-Block** – the terminal tool that lets you scan, spoof, and BLOCK devices on your local network in just a few keystrokes. 💻💥
 
 > ❗ **For educational and ethical hacking use only. Don't be evil. Or at least, not too evil.**
+ 
+## 🚀 Features
+- Block IPs on your local network (offline support)
+- Lightweight and easy to use
+- Great for learning ARP spoofing and local network control
 
-## 💣 Features
+## 🎯 Use Cases
+- Kick unknown users from your WiFi
+- Test network security setups
+- Perform ethical hacking demonstrations
 
-- 🔍 **Scan** who’s connected to your network (you might find a few surprise guests)
-- 📡 **Block** your sibling’s phone mid-YouTube binge
-- 🔓 **Unblock** them before they cry to mom
-- 🧠 **OS Detection** – Find out if that “unknown device” is an iPhone or a sneaky neighbor
-- 🧾 View all currently blocked IPs
+## 🛠️ Technologies
+- Bash
+- ARP Spoofing
+- IP Blocking without internet
 
-## ⚙️ Installation
+## 📦 Installation
 
-Make sure to install these dependencies first:
-
-```bash
-sudo apt update
-sudo apt install nmap arp-scan iptables dsniff -y
-```
-
-## 🚀 How to Use
 ```bash
 git clone https://github.com/reshot2005/wifiblocktool.git
 ```
-```bash
+```
 cd wifiblocktool
 ```
-```bash
+```
 chmod +x WifixBlock.sh
 ```
-
-## 🚀 Run the Script
-```bash
-sudo ./WifixBlock.sh
+```
+suo ./WifixBlock.sh
 ```
